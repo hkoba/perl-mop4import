@@ -1,6 +1,6 @@
 =head1 NAME
 
-MOP4Import::Intro - Thin Meta-Object Protocol to build extensible exporters
+MOP4Import - Introduction to Thin Meta-Object Protocol to build extensible exporters
 
 =head1 SYNOPSIS
 
@@ -233,6 +233,11 @@ you can add fields just by listing your own extensions.
   		  ]];
   }
 
+
+=head1 SEE ALSO
+
+L<MOP4Import::Declare> L<MOP4Import::Types>
+L<MOP4Import::whyfields>
 
 =head1 AUTHOR
 

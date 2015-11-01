@@ -1,11 +1,6 @@
-Revision history for Perl extension MOP4Import::Declare
+Revision history for Perl extension (spec) MOP4Import
 
-0.000_002    2015-10-21
-    * Mainly for CPAN, travis-ci and coveralls.
-    * Changes
-        - [GH #15] CLI should not eat options for subcommand
-	- s/take_hash_opts_maybe/take_hash_maybe/
-        - [GH #13] Fields declaration order was shuffled for subclass bug
-
-0.000_001    2015-09-23
-        - Alpha release.
+0.01  2015-11-01
+    * Split dist into MOP4Import and MOP4Import::Declare.
+        - MOP4Import is only for namespace reservation and intro doc.
+	- MOP4Import::Declare, primary implementation, is distributed separately from now on.
