@@ -1,3 +1,3 @@
 git.push_to = git@github.com:hkoba/perl-mop4import.git
 
-steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
+steps = FindVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
